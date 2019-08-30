@@ -1,0 +1,22 @@
+{
+  "name": "neural-net",
+  "version": "1.0.0",
+  "description": "An opensource package to create a Neural Network",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pupupulp/neural-net-js.git"
+  },
+  "author": "Eagan Martin",
+  "license": "The Unlicense",
+  "bugs": {
+    "url": "https://github.com/pupupulp/neural-net-js/issues"
+  },
+  "homepage": "https://github.com/pupupulp/neural-net-js#readme",
+  "dependencies": {
+    "numjs": "^0.16.0"
+  }
+}
