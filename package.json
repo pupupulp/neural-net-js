@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/pupupulp/neural-net-js#readme",
   "dependencies": {
-    "numjs": "^0.16.0"
+    "mathjs": "^6.2.0"
   }
 }

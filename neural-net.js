@@ -65,7 +65,7 @@ class NeuralNetwork {
     
     train(input, expected) {
         let output = this.forwardPropagation(input);
-        this.backwardPropagation(input, expected, output);
+        // this.backwardPropagation(input, expected, output);
     };
     
     predict(input) {
