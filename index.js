@@ -1,41 +1,29 @@
 const NeuralNetwork = require('./neural-net');
-const nj = require('numjs');
+const { matrix } = require('mathjs');
 
 let config = {
-    inputSize: 2,
-    hiddenLayers: 3,
-    outputSize: 1
+    inputNodes: 2,
+    hiddenNodes: 3,
+    outputNodes: 1,
+    epochs: 1,
+    learningRate: .5
 };
-
-// console.log(NeuralNetwork);
 
 const net = new NeuralNetwork(config);
 
-// net.initializeWeight();
-
-let input = nj.float64([
+let input = matrix([
     [0.2, 0.9],
     [0.1, 0.5],
-    [0.3, 0.6],
-    [0.5, 0.7]
+    [0.3, 0.6]
 ]);
 
-// input = nj.softmax(input);
-
-let expected = nj.float64([
+let expected = matrix([
     [0.92],
     [0.86],
     [0.89]
 ]);
 
-// console.log(input);
-// console.log(expected);
+net.train(input, expected);
 
-for (let i = 0; i < 1000; i++) {
-    console.log("Iteration: " + (i + 1));
-    net.train(input, expected);
-}
-
-// let test = nj.float64([[1, 12]]);
-
-// net.predict(test);
+let test = matrix([[5, 2]]);
+console.log(net.predict(test));
