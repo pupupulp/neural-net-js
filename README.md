@@ -19,7 +19,7 @@ An opensource package to create a Neural Network
 
 ## Quickstart
 
-+ **On index.js you can set config for neural network**
++ On index.js you can set config for neural network
 
 ```js
 {
@@ -31,9 +31,9 @@ An opensource package to create a Neural Network
 }
 ```
 
-+ **Data are found on data.js, specified as input and expected data, you can alter the file to your likings and for other necessary processing for your data before passing it to the neural network**
++ Data are found on data.js, specified as input and expected data, you can alter the file to your likings and for other necessary processing for your data before passing it to the neural network
 
-+ **On index.js you can set the test data for prediction**
++ On index.js you can set the test data for prediction
 
 ## About
 
