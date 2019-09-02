@@ -51,4 +51,4 @@ Pull requests and stars are always welcome. For bugs and feature requests, pleas
 
 ### License
 
-Copyright © 2019, [Eagan Martin](https://github.com/pupupulp). Release under the [GPL-3.0 License](https://github.com/pupupulp/neural-net-js/blob/master/LICENSE)
+Copyright © 2019, [Eagan Martin](https://github.com/pupupulp). Release under the [The Unlicense](https://github.com/pupupulp/neural-net-js/blob/master/LICENSE)
